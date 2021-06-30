@@ -25,12 +25,6 @@ body {
         display:inline:block;
         padding-right: 50px;
     }
-.nav>li>a{
-    text-decoration: none;
-    color: #400768;
-    }
-.nav>li>a:hoover {
-    color: #787878;
 }
 .nav  ul {
     list-style:none;
