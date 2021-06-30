@@ -53,13 +53,13 @@ nav ul li:hover ul {
     display: block;
 }
 
-nav ul li ul li a {
-    width:180px;
+nav ul li ul li {
+    width: 180px;
     border-radius: 4px;
 }
 nav ul li ul li a {
     padding: 8px 14px;
 }
 nav ul li ul li a:hover {
-    background: #f3f3f3;
+    background-color: #f3f3f3;
 }
