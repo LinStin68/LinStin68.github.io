@@ -1,4 +1,4 @@
-* {
+{
     margin: 0;
     padding: 0:
     font-family: Helvetica;
@@ -49,7 +49,7 @@ nav ul li ul {
     border-radius: 0px 0px 4px 4px;
 }
 
-nav ul li:hoover ul {
+nav ul li:hover ul {
     display: block;
 }
 
@@ -60,6 +60,6 @@ nav ul li ul li a {
 nav ul li ul li a {
     padding: 8px 14px;
 }
-nav ul li ul li a:hoover {
+nav ul li ul li a:hover {
     background: #f3f3f3;
 }
