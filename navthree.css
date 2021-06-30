@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0:
+    font-family: Helvetica;
+}
+.nav {
+    background-color: #BBBBBB;
+    color: #400768;
+    list-style:none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
