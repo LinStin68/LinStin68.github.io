@@ -32,10 +32,10 @@ body {
 .nav>li>a:hoover {
     color: #787878;
 }
-.nav {
+.nav  ul {
     list-style:none;
     margin:0;
-    padding: 20px 0px 20px 0px;
+    padding: 0;
 }
 .nav>ul li{
     width:150px;
@@ -43,5 +43,32 @@ body {
     text-alighn: center;
     font-weight: bold;
     color: #400768;
+}
+nav ul li{
+    margin-bottom: 2px;
+}
+nav a {
+    text decoration:none;
+    display:block;
+    border: 3 px dotted purple;
+    padding: 15px 15px 15px 15px;
+}
+nav a:link{
+    background-color: #fff;
+}
+nav a:hoover, nav a:focus {
+    background-color: gray;
+}
+nav a:active{
+    background-color:pink;
+}
+nav ul>li ul{
+    position: absolute;
+    margin-top: 0;
+    margin-left:100%;
+    display:none;
+}
+nav>ul>li:hoover>ul{
+    display:block;
 }
 }
