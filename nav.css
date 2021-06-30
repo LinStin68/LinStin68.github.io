@@ -32,4 +32,25 @@ body {
 .nav>li>a:hoover {
     color: #787878;
 }
+.nav {
+    list-style:none;
+    margin:0;
+    padding: 20px 0px 20px 0px;
+}
+.nav>ul li{
+    width:150px;
+    position:relative;
+    text-alighn: center;
+    font-weight: bold;
+    color: #400768;
+}
+.nav ul li{
+    margin-bottom: 2px;
+}
+.nav a{
+    text-decoration:none;
+    display:block;
+    border: 2px solid purple;
+    padding: 15px 15px 15px 25px;
+}
 }
