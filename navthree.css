@@ -64,13 +64,10 @@ nav ul li ul li a:hover {
     background-color: #f3f3f3;
 }
 
-/*Pseudo elements*/
-/*
-.element main p:first-letter:: {
+intro::first-letter {
     font=weight: bold;
-    background color:yellow;
+    font-size: 200%;
     color:red;
 }
-*/
 
 
