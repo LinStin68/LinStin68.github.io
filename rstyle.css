@@ -7,3 +7,9 @@
 .indent {
     text-indent: 20px;
 } 
+
+.box-one {
+    background color: f3f3f3;
+    border: none;
+    padding: 5px;
+}
