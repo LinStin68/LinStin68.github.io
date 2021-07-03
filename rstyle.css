@@ -8,8 +8,9 @@
     text-indent: 20px;
 } 
 
-.container {
+.container::div {
     background color: fff;
     border: none;
     padding: 5px;
 }
+
