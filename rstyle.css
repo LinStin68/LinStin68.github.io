@@ -3,6 +3,6 @@
     font-size: 200%;
     color:red;
 }
-.words::first-line {
-    text-indent:: 20%;
+.indent {
+    text-indent: 50px;
 } 
