@@ -64,7 +64,7 @@ nav ul li ul li a:hover {
     background-color: #f3f3f3;
 }
 
-intro::first-letter {
+.intro::first-letter {
     font=weight: bold;
     font-size: 200%;
     color:red;
