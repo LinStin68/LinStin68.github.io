@@ -4,6 +4,6 @@
     color:red;
 }
 
-.indent::first-line {
+.indent {
     text-indent: 20px;
 } 
