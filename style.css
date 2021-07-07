@@ -7,11 +7,12 @@ h1 {
     color: #40076B;
 }
 
-main {
+container {
     display: grid;
-    grid-template: repeat (2, 50 px) / repeat (3, 1 fr);
+    grid-template-columns: 1fr 200px 80ch 1fr;
     grid-gap: 20px;
 }
+
 h3 {
     color: #6E0DB8;
     text-align: justify-left;
