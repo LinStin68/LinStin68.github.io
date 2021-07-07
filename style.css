@@ -7,19 +7,26 @@ h1 {
     color: #40076B;
 }
 
+main {
+    display: grid;
+    grid-template: repeat (2, 50 px) / repeat (3, 1 fr);
+    grid-gap: 20px;
+}
 h3 {
     color: #6E0DB8;
     text-align: justify-left;
 }
+img {
+    border: 1px solid;
+    Width:20%;
+    }
+
 
 footer {
     text-align: left;
 }
 
-img {
-    border: 1px solid;
-    Width:20%;
-    }
+
 
 /* flex styles */
 @media screen and (mn-width:768px)
