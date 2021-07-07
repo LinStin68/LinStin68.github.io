@@ -16,6 +16,14 @@ img {
     border: 1px solid;
     Width:20%;
     }
+}
+    nav ul {
+        display:flex-center;
+    }
+    nav li {
+        flex: 1 1 0;
+    }
+}
 
 
 footer {
@@ -34,29 +42,18 @@ footer {
     grid-template-rows: 0fr 1 fr;
     gap: 1px;
 }
-}
-    nav ul {
-        display:flex-center;
-    }
-    nav li {
-        flex: 1 1 0;
-    }
-}
 
-.video {
-    width: 280px
-}
 
 .container> * {
     padding-top:10px;
     padding-right: 10px;
 }
 
-.quotes {
+.blockquote {
     color: red;
 }
 
-.pdf {
+a {
     h3: color: red;
     text-decoration:none;
 }
@@ -92,5 +89,5 @@ body {
     line-height:16pt;
     background:none;
     text-align: left;
-    
+
 }
