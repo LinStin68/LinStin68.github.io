@@ -1,13 +1,3 @@
-/* flex styles */
-@media screen and (mn-width:768px)
-    nav ul {
-        display:flex-center;
-    }
-    nav li {
-        flex: 1 1 0;
-    }
-}
-
 *{ 
     margin: 0;
     padding: 0;
@@ -26,4 +16,17 @@ footer {
     text-align: left;
 }
 
+Stinson.jpg img {
+    border: 1px solid;
+    Width:20%;
+    }
 
+/* flex styles */
+@media screen and (mn-width:768px)
+    nav ul {
+        display:flex-center;
+    }
+    nav li {
+        flex: 1 1 0;
+    }
+}
