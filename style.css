@@ -44,7 +44,6 @@ footer {
 
 
 /* flex styles */
-@media (max-width: 600px) {
 
 .container {
     display:grid;
@@ -68,14 +67,6 @@ a {
     text-decoration:none;
 }
 
-@media print {
-    *{
-        background: transparent !important;
-        color: #000 !important;
-    }
-@page {
-    margin:1in;
-}
 
 .container {
     margin:unset;
@@ -101,3 +92,10 @@ body {
     text-align: left;
 
 }
+
+@media (min-width:600px) {
+*/mobile first/*
+}
+
+@media screen and (...){
+    }
