@@ -88,3 +88,9 @@ body {
 @media (min-width:600px) {
 /* mobile first */
 }
+
+@media screen and (max-width:649) {
+    #container {
+        width:100%;
+    }
+}
