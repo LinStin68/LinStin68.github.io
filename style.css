@@ -88,14 +88,3 @@ body {
 @media (min-width:600px) {
 /* mobile first */
 }
-@media screen and (max-width:640){
-    #container {
-        width:100%;
-    }
-    #left-column {
-        width:70;
-    }
-    #right-column {
-        width:30;
-    }
-}
