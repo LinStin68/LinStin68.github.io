@@ -1,0 +1,149 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+/* About Image Class */
+.aboutImg {
+    width:200px;
+    
+}
+
+/* Bio Class & BlockQuote style */
+.bio,
+blockquote 
+{
+    padding: 0px 0px 10px;
+    
+}
+
+.education {
+    margin-left: 20px;
+}
+
+.item-main {
+  flex-basis: auto;
+  margin: 10px;
+}
+.item-aboutImg {
+    flex-basis: auto;
+    text-align: center;
+    flex-shrink: 3;  
+}
+.item-bio {
+    flex-grow: 2;
+    flex-basis: auto;
+}
+.item-main h2 {
+    padding: 0px 0px 10px;
+}
+.item-main p {
+    margin-bottom: 10px;
+}
+.item-project-main {
+    margin-bottom: 10px;
+    flex-grow: 3;
+    flex-basis: auto;
+    width: 400px;
+}
+.item-project {
+    margin-bottom: 10px;
+    flex-shrink: 0;
+    flex-basis: auto;
+    max-width: 400px;
+}
+
+.title {
+    text-align: center;
+    color: #6E0DB8;
+    position: relative;
+    flex-grow: 6;
+}
+
+h1 {
+    color: #40076B;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    border: 1px solid;
+}
+
+body{
+    background:#eee;
+}
+
+.wrapper {
+    width:100%;
+    max-width: 960px;
+    margin:0 auto;
+}
+
+footer {
+    text-align: left;
+    padding: 5px;
+    width:100%;
+    height:20px;
+    margin-top: 20px;
+    background-color: rgb(165, 90, 165);
+}
+
+footer p {
+    color: white;
+}
+
+
+/* flex styles */
+.container {
+    display: flex;
+    flex: 3 0px;
+    gap: 1px;
+    align-items: flex-start;
+}
+
+.container> * {
+    padding-top:10px;
+    padding-right: 10px;
+}
+
+.blockquote {
+    color: red;
+}
+
+a h3{
+    color: red;
+    text-decoration:none;
+}
+
+
+body {
+    margin-top:10px;
+    line-height:16pt;
+    background:none;
+    text-align: left;
+
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        width:100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1px;
+        align-items: flex-start;
+    }
+    footer {
+        height:auto;
+    }
+    .aboutImg {
+        max-width: 100%;
+        min-width: 150px;
+        
+    }
+    .item-aboutImg{
+        flex: 3 0px;
+    }
+}
