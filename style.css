@@ -59,6 +59,11 @@ blockquote
     position: relative;
     flex-grow: 6;
 }
+.titlebar {
+    background-color: #eee;
+    opacity: 1;
+    z-index: 100;
+}
 
 h1 {
     color: #40076B;
@@ -126,6 +131,10 @@ body {
 }
 
 @media screen and (max-width: 640px) {
+    
+    #firstcontainer {
+        padding-top: 70px;
+    }
     .container {
         width:100%;
         display: flex;
@@ -145,5 +154,8 @@ body {
     }
     .item-aboutImg{
         flex: 3 0px;
+    }
+    h1 {
+        font-size: 6vw;
     }
 }
