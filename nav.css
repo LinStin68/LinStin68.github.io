@@ -73,7 +73,9 @@ nav ul li ul li a:hover {
     background-color: #f3f3f3;
     color: violet;
 }
-
+nav ul, nav:active ul {
+    background: rgb(165, 90, 165);
+}
 .hamburger {
     display: none;
     float: left;
