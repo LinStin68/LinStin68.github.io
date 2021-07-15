@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: "dancingscript";
+    src: url(fonts/dancingscript.ttf);
+}
+
 /* About Image Class */
 .aboutImg {
     width:200px;
