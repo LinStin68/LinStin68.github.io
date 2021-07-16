@@ -4,8 +4,12 @@
 }
 
 @font-face {
-    font-family: "dancingscript";
-    src: url(fonts/dancingscript.ttf);
+    font-family: dancingscript;
+    src: url(dancingscript.ttf);
+}
+
+h1 {
+  font-family: dancingscript;
 }
 
 /* About Image Class */
@@ -92,17 +96,43 @@ body{
 
 footer {
     text-align: left;
-    padding: 5px;
     width:100%;
-    height:20px;
     margin-top: 20px;
-    background-color: rgb(165, 90, 165);
+    color:#eee;
 }
 
 footer p {
     color: white;
 }
 
+footer a {
+    color: #eee;
+}
+
+.footer-icon {
+    height: 20px;
+    background: #dedede;
+    margin-right: 5px;
+    margin-top: 5px;
+    transition: 1.2s ease-in-out;
+}
+
+.footer-icon:hover {
+    transform: scale(1.5);
+}
+
+#footer-icon-first {
+    margin-left: 5px;
+}
+
+#footerspace {
+    margin: 0;
+    padding: 0;
+   background-image: url(PurpleBackground1.jpg);
+   width: 100%;
+   height: 80px; 
+   opacity: .8;
+ }
 
 /* flex styles */
 .container {
@@ -125,6 +155,7 @@ a h3{
     color: red;
     text-decoration:none;
 }
+
 
 
 body {
@@ -163,20 +194,49 @@ body {
     h1 {
         font-size: 6vw;
     }
-}
-{
-   .email {
-        transition: 1s ease-in-out;
-    }
-    .email:hover {
-        transform: scale(1.3);
-    }
 
-    .phone {
-        transition: 1s ease-in-out;
-    }
-   
-    .phone:hover {
-        transform: scale(1.3);
-    }
-}
+
+} /* @media screen and (max-width: 640px) */
+
+@media print { 
+    *{
+       background: transparent !important;
+       color: #000 !important;    
+  } 
+  @page{
+       margin: 1in;
+  }
+  .logo{
+       margin:0;
+       text-align: center;
+  }
+  .container {
+       margin: unset;
+       display: unset;
+       grid-template-columns: unset;
+       grid-template-rows: unset;
+       gap: unset;
+  }
+  nav,
+  img,
+  a,
+  .title,
+  .video,
+  .nav-toggle-label,
+  footer a { 
+     display: none;
+  }
+  body {
+       margin-top: 10px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 12pt;
+       line-height: 18pt;
+       background: none;
+       text-align: left;
+  }
+  
+  .quote { 
+  text-align: center;
+  
+  }
+} /* @media print */
