@@ -164,3 +164,19 @@ body {
         font-size: 6vw;
     }
 }
+{
+   .email {
+        transition: 1s ease-in-out;
+    }
+    .email:hover {
+        transform: scale(1.3);
+    }
+
+    .phone {
+        transition: 1s ease-in-out;
+    }
+   
+    .phone:hover {
+        transform: scale(1.3);
+    }
+}
