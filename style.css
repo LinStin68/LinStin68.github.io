@@ -1,6 +1,6 @@
 *{ 
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
 @font-face {
@@ -26,6 +26,9 @@ h1 {
 .stbasilsimg {
     width: 300px;
 
+}
+.cutecat {
+    padding: 0px 0px 10px;
 }
 .itemclass {
     padding-left: 10px;
