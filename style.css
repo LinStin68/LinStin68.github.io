@@ -27,6 +27,9 @@ h1 {
     width: 300px;
 
 }
+.itemclass {
+    padding-left: 10px;
+}
 /* Bio Class & BlockQuote style */
 .bio,
 blockquote 
