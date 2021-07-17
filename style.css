@@ -44,6 +44,12 @@ blockquote
     text-align: center;
     flex-shrink: 3;  
 }
+.item-stbasilsimg {
+    Flex-basis: auto;
+    text-align: right;
+    flex-shrink: 3;
+
+}
 .item-bio {
     flex-grow: 2;
     flex-basis: auto;
