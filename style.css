@@ -28,8 +28,12 @@ h1 {
 
 }
 .cutecat {
-    padding: 0px 0px 10px;
+    text-align: center;
 }
+.instructionaldesign 
+[
+    text-align: center;
+]
 .itemclass {
     padding-left: 10px;
 }
