@@ -31,7 +31,7 @@ h1 {
 .bio,
 blockquote 
 {
-    padding: 0px 0px 10px;
+    padding: 10px 0px 10px;
     
 }
 
@@ -43,7 +43,7 @@ blockquote
 
 .item-main {
   flex-basis: auto;
-  margin: 10px;
+  margin: 20px;
 }
 .item-aboutImg {
     flex-basis: auto;
