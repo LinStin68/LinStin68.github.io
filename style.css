@@ -18,6 +18,10 @@ h1 {
     
 }
 
+/* about video */
+.resumevideo {
+    padding-left: 10px;
+}
 /* stbails image class */
 .stbasilsimg {
     width: 300px;
@@ -101,6 +105,8 @@ img {
 body{
     background:#eee;
 }
+
+
 
 .wrapper {
     width:100%;
