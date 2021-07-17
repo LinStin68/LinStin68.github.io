@@ -43,11 +43,11 @@ blockquote
     flex-basis: auto;
     text-align: center;
     flex-shrink: 3;  
+    padding-left: 10px;
 }
 .item-stbasilsimg {
     Flex-basis: auto;
     text-align: right;
-    flex-shrink: 1;
 
 }
 .item-bio {
