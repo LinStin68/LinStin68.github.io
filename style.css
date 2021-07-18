@@ -27,7 +27,9 @@ h1 {
     width: 300px;
 
 }
-
+.aboutImg {
+    width: 300px;
+}
 .allieimg {
     width: 250px;
 }
@@ -68,10 +70,17 @@ blockquote
 .item-stbasilsimg {
     flex-basis: auto;
     text-align: center;
+    lex-shrink: 3;  
+}
+.item-aboutImg {
+    flex-basis: auto;
+    text-align: center;
+    lex-shrink: 3;  
 }
 .item-allieimg {
    flex-basis: auto;
    text-align: ceter;
+   lex-shrink: 3;  
 }
 .item-bio {
     flex-grow: 2;
