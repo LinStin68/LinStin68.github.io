@@ -27,6 +27,9 @@ h1 {
     width: 300px;
 
 }
+.rummersimg {
+    width: 300px;
+}
 .item-aboutImg {
     width: 150px;
 }
@@ -67,6 +70,12 @@ blockquote
     text-align: center;
     flex-shrink: 3;  
 }
+.rummersimg {
+    flex-basis: auto;
+    text-align: center;
+    flex-shrink: 3;  
+}
+
 .item-allieimg {
    flex-basis: auto;
    text-align: ceter;
