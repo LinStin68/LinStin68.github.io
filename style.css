@@ -78,6 +78,7 @@ blockquote
 }
 .item-main h2 {
     padding: 0px 0px 10px;
+    text-align: center;
 }
 .item-main p {
     margin-bottom: 10px;
