@@ -57,10 +57,6 @@ blockquote
     list-style: none;
 }
 
-.item-main {
-  flex-basis: auto;
-  margin: 10px;
-}
 .item-aboutImg {
     flex-basis: auto;
     text-align: center;
