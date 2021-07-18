@@ -64,8 +64,6 @@ blockquote
 .item-aboutImg {
     flex-basis: auto;
     text-align: center;
-    flex-shrink: 3;  
-    padding-left: 20px;
 }
 .item-stbasilsimg {
     flex-basis: auto;
