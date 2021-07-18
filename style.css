@@ -32,6 +32,9 @@ h1 {
     width: 250px;
 }
 
+.item-firstcontainer {
+    text-align: center;
+}
 /* this may be a mistake */
 .itemclass {
     padding-left: 10px;
