@@ -70,17 +70,17 @@ blockquote
 .item-stbasilsimg {
     flex-basis: auto;
     text-align: center;
-    lex-shrink: 3;  
+    flex-shrink: 3;  
 }
 .item-aboutImg {
     flex-basis: auto;
     text-align: center;
-    lex-shrink: 3;  
+    flex-shrink: 3;  
 }
 .item-allieimg {
    flex-basis: auto;
    text-align: ceter;
-   lex-shrink: 3;  
+   flex-shrink: 3;  
 }
 .item-bio {
     flex-grow: 2;
