@@ -36,6 +36,9 @@ h1 {
 .allieimg {
     width: 150px;
 }
+.item-homeImg {
+    width: 300px;
+}
 
 .item-firstcontainer {
     text-align: center;
@@ -75,12 +78,17 @@ blockquote
     text-align: center;
     flex-shrink: 3;  
 }
-
 .item-allieimg {
    flex-basis: auto;
    text-align: ceter;
    flex-shrink: 3;  
 }
+.item-aboutImg {
+    flex-basis: auto;
+    text-align: ceter;
+    flex-shrink: 3; 
+}
+
 .item-bio {
     flex-grow: 2;
     flex-basis: auto;
