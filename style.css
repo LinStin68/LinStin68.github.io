@@ -32,9 +32,12 @@ h1 {
     width: 250px;
 }
 
+/* this may be a mistake */
 .itemclass {
     padding-left: 10px;
 }
+
+
 /* Bio Class & BlockQuote style */
 .bio,
 blockquote 
@@ -60,10 +63,12 @@ blockquote
     padding-left: 20px;
 }
 .item-stbasilsimg {
-    Flex-basis: auto;
-    text-align: center;
     flex-basis: auto;
-
+    text-align: center;
+}
+.item-allieimg {
+   flex-basis: auto;
+   text-align: ceter;
 }
 .item-bio {
     flex-grow: 2;
