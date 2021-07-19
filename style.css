@@ -27,14 +27,12 @@ h1 {
     width: 300px;
 
 }
-.rummersimg {
-    width: 300px;
-}
+
 .item-aboutImg {
-    width: 50px;
+    /* width: 50px; */
 }
-.allie img{
-    width: 150px;
+.allie-img{
+    width: 300px;
 }
 .item-homeImg {
     width: 300px;
@@ -77,6 +75,7 @@ blockquote
     flex-basis: auto;
     text-align: center;
     flex-shrink: 3;  
+    height: 200px;
 }
 .item-allieimg {
    flex-basis: auto;
@@ -111,6 +110,11 @@ blockquote
     flex-shrink: 0;
     flex-basis: auto;
     max-width: 400px;
+}
+
+.project-text {
+    margin-bottom: 10px;
+    font-size: larger;
 }
 
 .title {
