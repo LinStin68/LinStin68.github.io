@@ -79,12 +79,12 @@ blockquote
 }
 .item-allieimg {
    flex-basis: auto;
-   text-align: ceter;
+   text-align: center;
    flex-shrink: 3;  
 }
 .item-aboutImg {
     flex-basis: auto;
-    text-align: ceter;
+    text-align: center;
     flex-shrink: 3; 
 }
 
