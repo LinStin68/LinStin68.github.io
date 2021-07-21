@@ -28,13 +28,12 @@ th {
 th, td {
     padding: 10px;
     border: 1px;
-    border-color: solid #40076B;
+    border-color: #40076B;
+    border-style: solid;
 }
-tr:nth-child(even) {
-    background-color: #dedede;
-}
+
 tr:nth-child(odd) {
-    background-color: #eee;
+    background-color: #dedede;
 }
 
 
