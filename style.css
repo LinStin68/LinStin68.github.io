@@ -21,11 +21,12 @@ table {
 th {
     text-align: left;
 }
-table, th, td {
+table {
     border: 1 px solid #40076B;
 }
 th, td {
     padding: 10px;
+    border: 1 px solid #40076B;
 }
 tr:nth-child(even) {
     background-color: #dedede;
