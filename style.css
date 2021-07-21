@@ -17,14 +17,15 @@ h1 {
 table {
     width: 400px;
     border-collapse: collapse;
+    border: 1px;
+    border-color: #40076B;
+    border-style: solid;
+
 }
 th {
     text-align: left;
 }
-table {
-    border: 1px;
-    border-color: solid #40076B;
-}
+
 th, td {
     padding: 10px;
     border: 1px;
