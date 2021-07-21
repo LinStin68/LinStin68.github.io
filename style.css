@@ -15,18 +15,18 @@ h1 {
 /* style for boxes week seven */
 
 table {
-    width: 400 px;
+    width: 400px;
     border-collapse: collapse;
 }
 th {
     text-align: left;
 }
 table {
-    border: 1 px solid #40076B;
+    border: 1px solid #40076B;
 }
 th, td {
     padding: 10px;
-    border: 1 px solid #40076B;
+    border: 1px solid #40076B;
 }
 tr:nth-child(even) {
     background-color: #dedede;
