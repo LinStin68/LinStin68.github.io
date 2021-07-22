@@ -95,6 +95,12 @@ blockquote
     list-style: none;
 }
 
+.itemhomeImg {
+    flex-basis: auto;
+    text-align: center;
+    flex-shrink: 3; 
+}
+
 .item-aboutImg {
     flex-basis: auto;
     text-align: center;
