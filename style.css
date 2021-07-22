@@ -37,6 +37,9 @@ tr:nth-child(even) {
 }
 
 /* About Image Class */
+.aboutImg {
+    width:200px;
+}
 
 /* about video */
 .resumevideo {
