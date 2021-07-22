@@ -237,13 +237,11 @@ a h3{
 }
 
 
-
+/* this is where I messed up the margins for the entire page */
 body {
-    margin-top:10px;
     line-height:16pt;
     background:none;
     text-align: left;
-    padding-left:10px;
 
 }
 
