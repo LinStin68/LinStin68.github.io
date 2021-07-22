@@ -69,6 +69,18 @@ tr:nth-child(even) {
     padding-left: 10px;
 }
 
+/* Form */
+form input {
+    display: block;
+    margin-bottom: 1%;
+}
+
+form textarea {
+    display: block;
+    margin-bottom: 1%;
+    width: 30em;
+    height: 10em;
+}
 
 /* Bio Class & BlockQuote style */
 .bio,
