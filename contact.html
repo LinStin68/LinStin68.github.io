@@ -51,35 +51,20 @@
 
         <div class="contact">
            
-            <section>
-                <div class="col"></div>
-                 <div class="new"></div>
-                <h2 class="title">Contact Me</h2>
-                <div class="contact">
-                <form action="mailto:lssp5m@umsystem.edu?Subject=Portfolio%20Website%20Contact" method="post" enctype="text/plain">
-
-              <div class="form-group">
-              <label for="firstname">First Name</label> 
-              <input type="text" id="firstname" name="firstname" required></div>
-           
-              <div class="form-group">
-                <label for="lastname">Last Name</label> 
-                <input type="text" id="lastname" name="lastname" required>
-              </div>
-
-              <div class="form-group">
-              <label for="email">Email Address</label>
-              <input type="email" name="email" id="email" required> 
-              </div>
-
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea name="message" id="message"  rows="7"></textarea></div>
-
-            
-              <button type="submit">Submit</button></form>
-
-            </section>
+            <header><h2>Contact</h2></header>
+            <main class="item2">
+                <form id="emailform" action="mailto:lssp5m@mumsystem.edu?Subject=Portfolio&nbsp;Website&nbsp;Contact" method="post">
+                    First Name: <input type="text" id="firstname" name="firstname" autofocus>
+                    Last Name: <input type="text" id="lastname" name="lastname">
+                    Email Address: <input type="email" id="email">
+                    Message: <textarea id="message" name="message" form="emailform"></textarea>
+                    <input type="submit" id="submit" value="Submit">
+                </form>
+                 
+            </main>
+            <div class="item3">
+                 
+             </div>
        
             </div>
         </div>
