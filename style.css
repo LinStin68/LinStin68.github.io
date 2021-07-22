@@ -56,7 +56,7 @@ tr:nth-child(even) {
 .allie-img{
     width: 300px;
 }
-.itemhomeImg {
+.bitmoji {
     width: 50px;
 }
 
@@ -95,7 +95,7 @@ blockquote
     list-style: none;
 }
 
-.itemhomeImg {
+.bitmoji {
     flex-basis: auto;
     text-align: center;
     flex-shrink: 3; 
