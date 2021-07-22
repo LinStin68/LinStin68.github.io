@@ -54,11 +54,11 @@
             <header><h3>Send a Message</h3></header>
             <br>
             <main class="item2">
-                <form id="emailform" action="mailto:lssp5m@mumsystem.edu?Subject=Portfolio/Profession%20Website%20Contact" method="post">
-                    First Name: <input type="text" id="firstname" name="firstname" autofocus>
-                    Last Name: <input type="text" id="lastname" name="lastname">
-                    Email Address: <input type="email" id="email">
-                    Message: <textarea id="message" name="message" form="emailform"></textarea>
+                <form id="emailform" action="mailto:lssp5m@mumsystem.edu?Subject=Portfolio%20Profession%20Website%20Contact" method="post"enctype="text/plain">
+                    First Name: <input type="text" id="firstname" name="firstname" required>
+                    Last Name: <input type="text" id="lastname" name="lastname" required>
+                    Email Address: <input type="email" id="email" required>
+                    Message: <textarea id="message" name="message" form="emailform" row="7"></textarea>
                     <input type="submit" id="submit" value="Submit">
                 </form>
                  
