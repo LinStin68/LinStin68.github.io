@@ -158,7 +158,7 @@ blockquote
 }
 
 .title {
-    text-align: center;
+    text-align: left;
     color: #6E0DB8;
     position: relative;
     flex-grow: 6;
