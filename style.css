@@ -22,6 +22,10 @@ h1 {
     padding-left: 10px;
 }
 
+.p {
+    font-size: larger;
+}
+
 table {
     width: 400px;
     border-collapse: collapse;
