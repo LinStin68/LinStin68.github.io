@@ -28,6 +28,7 @@ h3 {
 }
 
 table {
+    width: 600px;
     border-collapse: collapse;
     border: 1px;
     border-color: #40076B;
