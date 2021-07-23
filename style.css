@@ -15,6 +15,9 @@ h1 {
 h3 {
     color:#6E0DB8;
 }
+.caption {
+    color: #6E0DB8;
+}
 
 /* style for boxes week seven */
 
@@ -28,7 +31,7 @@ h3 {
 }
 
 table {
-    width: 1000px;
+    width: flex;
     border-collapse: collapse;
     border: 1px;
     border-color: #40076B;
