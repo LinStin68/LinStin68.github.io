@@ -33,6 +33,7 @@ table {
     border: 1px;
     border-color: #40076B;
     border-style: solid;
+    padding-left: 10px;
 }
 th {
     text-align: left;
