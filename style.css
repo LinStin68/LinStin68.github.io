@@ -17,10 +17,10 @@ h1 {
 .container {
     padding-left: 10px;
 }
+/* style for moving away from left side*/
 
 .item-project {
     padding-left: 10px;
-    font-size: larger;
 }
 
 .project text {
