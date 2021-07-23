@@ -23,10 +23,6 @@ h1 {
     padding-left: 10px;
 }
 
-.project text {
-    font-size: larger;
-}
-
 table {
     width: 400px;
     border-collapse: collapse;
@@ -167,7 +163,6 @@ blockquote
 
 .project-text {
     margin-bottom: 10px;
-    font-size: larger;
 }
 
 .title {
