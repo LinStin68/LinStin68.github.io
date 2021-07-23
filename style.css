@@ -14,6 +14,10 @@ h1 {
 
 /* style for boxes week seven */
 
+.container {
+    padding-left: 10px;
+}
+
 table {
     width: 400px;
     border-collapse: collapse;
