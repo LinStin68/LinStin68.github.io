@@ -31,7 +31,7 @@ h3 {
 }
 
 table {
-    width: flex;
+    width: auto; 
     border-collapse: collapse;
     border: 1px;
     border-color: #40076B;
