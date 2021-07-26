@@ -8,8 +8,19 @@
     src: url(dancingscript.ttf);
 }
 
+/* fixing validation errors*/
+.info-welcome {
+    font-size: larger;
+}
+.footer-item {
+    font-size: large;
+}
+
+
+
 h1 {
   font-family: dancingscript;
+  font-size: large;
 }
 
 h3 {
